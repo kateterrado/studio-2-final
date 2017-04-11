@@ -1,30 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <style>
-    [class^="Trump"] {
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Palanquin" rel="stylesheet">
+<title>Cookie</title>
+<style>
+/*    [class^="Trump"] {
       display: inline-block;
       background: #fefefe;
       width: 40vw;
       vertical-align: top;
       border: 1px solid #fee;
       padding: 20px
+    }*/
+
+
+
+    body {
+      width:100%;
+/*      height:100%;*/
+      font-family: 'EB Garamond', serif;
+      font-size: 18px;
+      margin: 20px auto;
+      text-align: center;
+      background-image: url('bg-3.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
-  </style>
+
+    body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+    .TrumpWord {
+      font-family: 'EB Garamond', serif;
+      display: inline-block;
+      text-align: right;
+      vertical-align: top;
+      font-size: 16px;
+      margin: 20px auto;
+      line-height: 1.5em;
+      padding: 20px;
+      width: 90vw;
+    }
+
+    .TrumpSpeech {
+      font-family: 'Palanquin', sans-serif;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      font-size: 14px;
+      margin: 20px auto;
+      line-height: 1.75em;
+      padding: 20px;
+      width: 20vw;
+    }
+    .scene{
+      width:100%;
+      height:100%;
+    }
+
+    
+
+
+
+</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="scroll-nav.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-  <nav>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+           
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"><span data-word="null"></span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   <nav class="navbar">
     <span data-word="null"></span>
-  </nav>
-  <h1>Word</h1>
-  <div style="display: inline-block">
-    <div class="TrumpWord">
+  </nav> -->
+
+  <div class="scene">
+   <div class = mainTitle>Modern Shakespeare</div>
+    <div class="title">  The English language owes a great debt to Shakespeare – he invented over 1700 of our common words. This project explores modern uses of Shakespeare’s words and phrases and puts them back into their original context. </div>
+
+
+  </div>
+
+
+
+  <div class="stories">
+    <div style="display: block">
+
     </div>
-    <div class="TrumpSpeech">
+    <div style="display: inline-block">
+        
+        <div id ="page-top" class="TrumpWord">
+        </div>
+        <div class="TrumpSpeech">
+        </div>
     </div>
   </div>
+
+
   <script src="shakespeareData.js"></script>
   <script src="shakespeare.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+<script src="scrolling-nav.js"></script>
 </body>
 </html>

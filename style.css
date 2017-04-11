@@ -1,0 +1,68 @@
+nav {
+      background-color: black;
+      color: gray;
+      min-height:50px;
+      width: 100vw;
+      
+    }
+
+.nav-item {
+	  display: inline-flex;
+      text-align: -webkit-center;
+      vertical-align: -webkit-baseline-middle;
+      margin:0px 7px 0px 7px;
+      width: 9vw;
+      font-size: 16px;
+      padding-top: 14px 14px 14px 14px;
+      font-family: 'Palanquin', sans-serif;
+      font-size: 12px;
+}
+
+.nav-item:hover {
+	color: #FFC933;
+	cursor: pointer;
+}
+
+mark {
+    background-color: #FFC933;
+    color: black;
+}
+
+
+.context {
+	display: inline-table;
+	width: 25%;
+	text-align: right;
+	padding-top: 50px;
+}
+.tweet {
+	display: inline-table;
+	width: 25%;
+	text-align: left;
+	padding-left: 20px
+}
+.item {
+	text-align: center;
+	padding-right: 20px
+	padding-top: 200px;
+}
+
+.contentParagraph {
+	padding-bottom: 100px;
+}
+
+.title {
+	text-align: left;
+	width: 25%;
+	font-family: 'EB Garamond', serif;
+	font-size: 24px;
+	margin: 40px 100px 0px 600px;
+}
+
+.mainTitle {
+	text-align: left;
+	width: 25%;
+	font-family: 'EB Garamond', serif;
+	font-size: 48px;
+	margin: 200px 0px 0px 600px;
+}
