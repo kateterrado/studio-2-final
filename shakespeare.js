@@ -53,8 +53,17 @@ const contItems = trumpWords
       </div>`
 
   )
-  .slice(0, 10)
+  .slice(0, 100)
   .join('');
+
+
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
 
 
 
