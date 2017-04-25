@@ -44,7 +44,7 @@ const contItems = trumpWords
   .map(
     entry =>
       `<div class="contentParagraph" id="${entry.word}" data-word="${entry.word}">
-      <div class="item"> 
+      <div class="item">
       <h3> ${entry.word}</h3>
       <div class="context"> ${entry.context} </div>
       <div class="tweet"> ${entry.tweet} </div>
@@ -53,7 +53,7 @@ const contItems = trumpWords
       </div>`
 
   )
-  .slice(0, 100)
+  .slice(0, 200)
   .join('');
 
 
